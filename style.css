@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px 0;
+  background-color: burlywood;
+}
+
+.grid {
+  max-width: 450px;
+  margin: 0 auto;
+  display: grid;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-evenly; */
+  grid-template-columns: auto auto auto auto;
+  grid-column: 10px;
+}
+
+.card {
+  margin: 5px;
+  background-color: rgb(236, 223, 223);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 10px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+
+
+}
+
+.innerDiv {
+  font-size: 60px;
+  font-family: 'Holtwood One SC', serif;
+  display: inline-block;
+  margin: 0 auto;
+  border-color: rgb(148, 0, 0);
+
+
+
+
+  /* font-family: 'Mali', cursive;
+
+  font-family: 'Nunito', sans-serif;
+
+  font-family: 'Baloo Thambi', cursive;
+
+  font-family: 'Holtwood One SC', serif; */
+
+
+
+}
